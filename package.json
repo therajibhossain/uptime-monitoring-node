@@ -1,0 +1,15 @@
+{
+    "name": "raw-node-api-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Rajib Hossain <rajibhossain@learnwithsumit.com>",
+    "license": "UNLICENSED",
+    "description": "A RESTFul API to monitor up or down time of user defined links",
+    "devDependencies": {
+    }
+  }
