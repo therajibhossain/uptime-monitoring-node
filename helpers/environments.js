@@ -14,14 +14,24 @@ environments.staging = {
     port: 3000,
     envName: 'staging',
     secretKey: 'secretRawNode',
-    maxChecks: 5
+    maxChecks: 5,
+    twilio: {
+        fromPhone: '+15005550006',
+        accountSid: 'ACd13aeda441241a59148268dc9f96c740',
+        authToken: 'b77c524756604c11a44171315048ec1d'
+    }
 };
 
 environments.production = {
     port: 5000,
     envName: 'production',
     secretKey: 'secretRawNodeProduction',
-    maxChecks: 5
+    maxChecks: 5,
+    twilio: {
+        fromPhone: '+15005550006',
+        accountSid: 'ACd13aeda441241a59148268dc9f96c740',
+        authToken: 'b77c524756604c11a44171315048ec1d'
+    }
 };
 
 //determine which environment was passed
