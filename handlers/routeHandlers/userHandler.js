@@ -24,7 +24,7 @@ handler.userHandler = (requestProperties, callback) => {
 
 handler._users = {};
 
-handler._users.post = (requestProperties, callback) => {
+handler._users.post = (requestProperties, callback) => { console.log(callback)
     const body = requestProperties.body;
 
     const firstName = (typeof(body.firstName) === 'string' && body.firstName.trim().length > 0) ? body.firstName : false;
